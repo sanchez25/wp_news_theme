@@ -1,0 +1,575 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: Tahoma, Geneva, sans-serif;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+          text-size-adjust: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer, header, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+.wp-block-table {
+  max-width: 100%;
+  overflow-x: auto;
+  padding-bottom: 20px;
+}
+
+.wp-block-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.wp-block-table table td {
+  text-align: center;
+  padding: 10px;
+}
+
+.wp-block-table table tr:nth-child(2n) {
+  background: #1245ff;
+}
+
+.wp-block-table table tr:nth-child(2n) td {
+  color: #fff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  border-style: none;
+  max-width: 100%;
+  height: auto;
+}
+
+h1, h2, h3, h4 {
+  padding: 15px 0;
+}
+@media (min-width: 768px) {
+  h1, h2, h3, h4 {
+    padding: 20px 0;
+  }
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+a:hover {
+  transition: 0.3s ease-out;
+}
+
+.wp-block-image, .wp-block-gallery {
+  margin-bottom: 20px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.wp-block-image img, .wp-block-gallery img {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .wp-block-image img, .wp-block-gallery img {
+    width: 75%;
+  }
+}
+
+.wp-block-media-text {
+  display: flex;
+  margin-bottom: 15px;
+}
+.wp-block-media-text .wp-block-media-text__media {
+  flex: 0 0 auto;
+  max-width: 100%;
+  margin-right: 10px;
+}
+.wp-block-media-text .wp-block-media-text__content {
+  width: 100%;
+  max-width: 100%;
+}
+
+/* 404 Error */
+.error .error-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+.error .error-block .error-block-content {
+  text-align: center;
+}
+.error .error-block .error-block-content span {
+  display: block;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.error .error-block .error-block-content p {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+.error .error-block .error-block-content .error-btn {
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(77, 178, 236);
+  border: 2px solid rgb(77, 178, 236);
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+.error .error-block .error-block-content .error-btn:hover {
+  background-color: unset;
+  color: rgb(77, 178, 236);
+}
+
+.page-top {
+  border-radius: 9px !important;
+}
+
+.featured2 {
+  margin-top: 20px;
+}
+
+.Kot2 {
+  font-size: 120%;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 135%;
+  margin: 8px;
+  border: none;
+}
+.Kot2 td {
+  padding: 10px 3px;
+}
+
+.tv-wrapper {
+  float: right;
+  text-align: left;
+  padding: 0;
+  clear: both;
+  position: relative;
+  width: 100%;
+}
+
+.tv-wrapper .channel_list_container {
+  width: 100%;
+  height: 540px;
+  float: left;
+  overflow: hidden;
+  font-size: 12px;
+  position: relative;
+}
+
+.tv-wrapper .channel_list_wrapper {
+  width: 100%;
+  height: 540px;
+  background: #DEE3E7;
+  color: #FFF;
+}
+.tv-wrapper .channel_list_wrapper .dgray {
+  color: #FFFFFF;
+}
+
+.tv-wrapper .channel_list {
+  float: left;
+  width: 280px;
+  padding: 0 2px;
+  margin-top: 2px;
+  position: relative;
+  width: 100%;
+}
+
+.tv-wrapper .category {
+  width: 100%;
+  background: #297EB9;
+  float: left;
+  clear: both;
+  height: 30px;
+  line-height: 30px;
+  vertical-align: middle;
+  cursor: pointer;
+  border-bottom: 2px solid #fff;
+  padding-left: 5px;
+  overflow: hidden;
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+}
+.tv-wrapper .category span {
+  color: #fff;
+}
+
+.tv-wrapper .category:hover {
+  background: #C4CCD8;
+  color: #000;
+}
+
+.tv-wrapper .category span {
+  vertical-align: middle;
+}
+
+.tv-wrapper .category img {
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
+  border: 0 none;
+  margin-right: 5px;
+}
+
+.tv-wrapper .itemnew {
+  float: left;
+  padding-left: 10px;
+  height: 52px;
+  border-bottom: 1px solid #297EB9;
+  color: #297EB9;
+}
+
+.tv-wrapper .itemnew:hover {
+  background: #97B1D6;
+  color: #FFFFFF;
+}
+
+.tv-wrapper .itemnew .logo_wrapper {
+  float: left;
+  width: 44px;
+  height: 52px;
+  overflow: hidden;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 52px;
+}
+
+.tv-wrapper .itemnew .logo_wrapper img {
+  max-width: 40px;
+  max-height: 50px;
+  vertical-align: middle;
+  border: 0 none;
+}
+
+.tv-wrapper .items_wrapper {
+  float: left;
+  width: 100%;
+  overflow: hidden;
+}
+
+.tv-wrapper .items {
+  float: left;
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  background: #ECECEC;
+}
+
+.tv-wrapper .info_wrapper {
+  float: left;
+  width: 225px;
+  height: 70px;
+  overflow: hidden;
+  padding-top: 2px;
+}
+
+.tv-wrapper .info_wrapper .caption {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 12px;
+  float: left;
+  clear: both;
+  height: 32px;
+  font-weight: bold;
+  padding-top: 18px;
+  padding-left: 10px;
+}
+
+.tv-wrapper .current_wrapper {
+  float: left;
+  text-align: left;
+  padding: 0;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: inherit;
+  text-decoration: none;
+  line-height: normal;
+  clear: both;
+  height: 100px;
+  overflow: hidden;
+  padding-top: 4px;
+}
+
+.tv-wrapper .itemnew a:hover {
+  background: #3B478F;
+  color: #FFFFFF;
+}
+
+.tv-wrapper .current_logo_wrapper {
+  float: left;
+  width: 320px;
+  height: 98px;
+  line-height: 100px;
+  background: #F1F1F1;
+  border-bottom: 2px solid #7B7B7B;
+}
+
+.tv-wrapper .current_logo_wrapper .container {
+  width: 240px;
+  height: 100px;
+  overflow: hidden;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px;
+  float: left;
+}
+
+.tv-wrapper .current_logo_wrapper .container img {
+  vertical-align: middle;
+  max-width: 120px;
+  max-height: 90px;
+  border: 0 none;
+}
+
+.tv-wrapper .current_logo_wrapper .name_wrapper {
+  width: 168px;
+  padding-right: 10px;
+  text-align: left;
+  border-right: 2px solid #7B7B7B;
+  height: 100px;
+  display: table-cell;
+  line-height: normal;
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+.tv-wrapper .epg_container {
+  width: 640px;
+  height: 100px;
+  overflow: hidden;
+  float: left;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.tv-wrapper .epg_wrapper {
+  width: 640px;
+  overflow: hidden;
+  float: left;
+}
+
+.tv-wrapper .epg_itemnew {
+  height: 24px;
+  border-bottom: 1px solid #7B7B7B;
+  padding: 0 10px;
+  clear: both;
+}
+
+.tv-wrapper .epg_itemnew .time {
+  width: 80px;
+  text-align: center;
+  display: table-cell;
+  text-align: center;
+  height: 24px;
+  float: left;
+  line-height: 24px;
+}
+
+.tv-wrapper .epg_itemnew .caption {
+  text-align: left;
+  height: 24px;
+  float: left;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  line-height: 24px;
+}
+
+.tv-wrapper .epg_active {
+  background: #3B478F;
+  color: #000;
+  border-bottom: 1px solid #7B7B7B;
+}
+
+.tv-wrapper .epg_current {
+  background: #97B1D6;
+  color: #FFFFFF;
+  border-bottom: 1px solid #7B7B7B;
+}
+
+.right-column-link {
+  color: #297EB9;
+  text-decoration: none;
+  font: inherit;
+}
+
+.right-column-link:hover {
+  text-decoration: underline;
+}
+
+.bottom-column-link {
+  color: inherit;
+  text-decoration: underline;
+  font: inherit;
+}
+
+.bottom-column-link:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.best-channels-header {
+  width: 94%;
+  height: 35px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background: url(/wp-content/uploads/2025/02/menu_bg.jpg) repeat-x scroll 0 0 transparent;
+  text-decoration: none;
+  text-transform: uppercase;
+  font: bold 16px sans-serif;
+  padding: 8px 0 2px 65px;
+  color: #FAFAFA;
+}
+.best-channels-header a {
+  color: #FAFAFA;
+}
+
+.best-channels-wrapper .icon {
+  z-index: 999;
+  position: relative;
+  height: 0px;
+  top: -16px;
+  left: -12px;
+}
+
+.best-channels {
+  width: 100%;
+  float: left;
+  clear: both;
+  position: relative;
+  padding: 10px 10px 15px 10px;
+  background: none repeat scroll 0 0 #ECECEC;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom: 1px solid #C9C9C9;
+  border-left: 1px solid #C9C9C9;
+  border-right: 1px solid #C9C9C9;
+}
+
+.best-channels-content {
+  width: 96%;
+  float: left;
+  border-radius: 5px;
+  border: 1px solid #D1D1D1;
+  background: none repeat scroll 0 0 #FAFAFA;
+  padding: 5px;
+  margin-right: 3px;
+  margin-bottom: 7px;
+  text-align: center;
+  min-height: 215px;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+
+.best-channels-content:hover h5 {
+  background: none repeat scroll 0 0 #D50843;
+  color: #FAFAFA !important;
+}
+
+.best-channels-content .channel-logo {
+  max-width: 215px;
+  max-height: 50px;
+  border: 0 none;
+}
+
+.best-channels-content h5 {
+  width: 100%;
+  background: none repeat scroll 0 0 #97B1D6;
+  margin: 3px 0 6px 0;
+  padding: 3px 0 3px 0;
+  font: bold 12px sans-serif;
+  color: #333 !important;
+}
+
+.best-channels-content h5 a, .best-channels-content h5 a:active, .best-channels-content h5 a:hover, .best-channels-content h5 a:visited {
+  font: inherit;
+  text-decoration: none;
+  color: inherit;
+}
+
+.best-channels-wrapper {
+  margin-top: 20px;
+}
+
+.page-top_tor .containerI {
+  padding: 15px;
+}
+
+.post h2 {
+  font-size: 22px !important;
+}
+
+.post h3 {
+  font-size: 20px !important;
+}/*# sourceMappingURL=style.css.map */
